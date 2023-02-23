@@ -14,7 +14,7 @@ git clone --recursive https://github.com/alacritty/alacritty-theme ~/.config/ala
 
 To use a theme 
 
-Replace *gruvbox_dark.conf* with the theme of your choice
+Replace *gruvbox_dark.yaml* with the theme of your choice
 
 ```
 cp ~/.config/alacritty/themes/themes/gruvbox_dark.yaml ~/.config/alacritty/theme.yaml
