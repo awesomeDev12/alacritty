@@ -11,6 +11,16 @@ mkdir -p ~/.config/alacritty/themes
 git clone --recursive https://github.com/alacritty/alacritty-theme ~/.config/alacritty/themes
 ```
 
+
+To use a theme 
+
+Replace *gruvbox_dark.conf* with the theme of your choice
+
+```
+cp ~/.config/alacritty/themes/themes/gruvbox_dark.yaml ~/.config/alacritty/theme.yaml
+```
+
+
 <!-- To add themes as submodule -->
 <!-- ``` -->
 <!-- # Add this as submodule -->

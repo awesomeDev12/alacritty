@@ -10,10 +10,19 @@
 # to the user's home directory starting with `~/`.
 #import:
 #  - /path/to/alacritty.yml
+#
+# Import Theme (Directly) (Not Recommended)
 # import:
 #  - ~/.config/alacritty/themes/themes/{theme}.yaml
+# import:
+#   - ~/.config/alacritty/themes/themes/gruvbox_dark.yaml
+ 
+# Import Theme (Indirectly) (Recommended)
+#
+# Replace *gruvbox_dark.conf* with the theme of your choice
+# cp ~/.config/alacritty/themes/themes/gruvbox_dark.yaml ~/.config/alacritty/theme.yaml
 import:
-  - ~/.config/alacritty/themes/themes/gruvbox_dark.yaml
+  - ~/.config/alacritty/theme.yaml
 
 # Any items in the `env` entry below will be added as
 # environment variables. Some entries may override variables
